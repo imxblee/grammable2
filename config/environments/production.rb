@@ -1,4 +1,5 @@
 Grammable2::Application.configure do
+  onfig.action_mailer.default_url_options = { host: 'grammable2-imxb.herokuapp.com', port: 3000 }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
